@@ -1,8 +1,11 @@
 import React from "react";
-import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { BellDot, SearchIcon, UserIcon } from "lucide-react";
-// import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuList
+} from "@/components/ui/navigation-menu";
 
 function Header() {
   return (
@@ -12,10 +15,14 @@ function Header() {
         <p className="text-sm">Making Crypto fun again</p>
       </div>
       <div className="flex justify-center items-center space-x-4">
-        <Button>Trading</Button>
-        <Button>Community</Button>
-        <Button>Pumps</Button>
-        <Button>Token</Button>
+        <NavigationMenu>
+          <NavigationMenuList>
+            <NavigationMenuItem>Trading</NavigationMenuItem>
+            <NavigationMenuItem>Community</NavigationMenuItem>
+            <NavigationMenuItem>Pumps</NavigationMenuItem>
+            <NavigationMenuItem>Token</NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
       </div>
       <div className="flex justify-center items-center space-x-4">
         <div className="relative">
@@ -27,14 +34,6 @@ function Header() {
           <UserIcon className="h-6 w-6" />
           <p>PP: 69,420</p>
         </div>
-        {/* <Card>
-          <CardHeader className="flex flex-row items-center justify-between">
-            <CardTitle>
-              <UserIcon className="h-6 w-6" />
-            </CardTitle>
-            <CardDescription>PP: 69,420</CardDescription>
-          </CardHeader>
-        </Card> */}
       </div>
     </header>
   );
