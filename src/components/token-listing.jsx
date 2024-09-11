@@ -62,7 +62,7 @@ function TokenListing() {
         <CardTitle>New Pairs</CardTitle>
       </CardHeader>
       <CardContent>
-        <ScrollArea className="h-[200px]">
+        <ScrollArea className="h-[200px] px-4">
           <Table>
             <TableHeader>
               <TableRow>
