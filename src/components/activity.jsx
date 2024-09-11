@@ -107,7 +107,7 @@ function Activity() {
             <Card>
               <CardContent>
                 <div className="flex items-center pt-6 w-full gap-2">
-                  <div className="bg-white h-full w-[150px] rounded-xl">
+                  <div className="h-full w-[150px] rounded-xl">
                     <img
                       className="rounded-xl w-12 h-12 object-cover"
                       src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
@@ -122,7 +122,7 @@ function Activity() {
                   </div>
                 </div>
                 <div className="flex items-center pt-6 w-full gap-2">
-                  <div className="bg-white h-full w-[150px] rounded-xl">
+                  <div className="h-full w-[150px] rounded-xl">
                     <img
                       className="rounded-xl w-12 h-12 object-cover"
                       src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
@@ -137,7 +137,7 @@ function Activity() {
                   </div>
                 </div>
                 <div className="flex items-center pt-6 w-full gap-2">
-                  <div className="bg-white h-full w-[150px] rounded-xl">
+                  <div className="h-full w-[150px] rounded-xl">
                     <img
                       className="rounded-xl w-12 h-12 object-cover"
                       src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
@@ -152,7 +152,7 @@ function Activity() {
                   </div>
                 </div>
                 <div className="flex items-center pt-6 w-full gap-2">
-                  <div className="bg-white h-full w-[150px] rounded-xl">
+                  <div className="h-full w-[150px] rounded-xl">
                     <img
                       className="rounded-xl w-12 h-12 object-cover"
                       src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
@@ -167,7 +167,7 @@ function Activity() {
                   </div>
                 </div>
                 <div className="flex items-center pt-6 w-full gap-2">
-                  <div className="bg-white h-full w-[150px] rounded-xl">
+                  <div className="h-full w-[150px] rounded-xl">
                     <img
                       className="rounded-xl w-12 h-12 object-cover"
                       src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
@@ -182,7 +182,7 @@ function Activity() {
                   </div>
                 </div>
                 <div className="flex items-center pt-6 w-full gap-2">
-                  <div className="bg-white h-full w-[150px] rounded-xl">
+                  <div className="h-full w-[150px] rounded-xl">
                     <img
                       className="rounded-xl w-12 h-12 object-cover"
                       src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
