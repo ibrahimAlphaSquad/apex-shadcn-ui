@@ -4,7 +4,7 @@ import { BellDot, SearchIcon, UserIcon } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuItem,
-  NavigationMenuList
+  NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 
 function Header() {
@@ -14,16 +14,14 @@ function Header() {
         <h1 className="font-bold text-4xl">Apex</h1>
         <p className="text-sm">Making Crypto fun again</p>
       </div>
-      <div className="flex justify-center items-center space-x-4">
-        <NavigationMenu>
-          <NavigationMenuList>
-            <NavigationMenuItem>Trading</NavigationMenuItem>
-            <NavigationMenuItem>Community</NavigationMenuItem>
-            <NavigationMenuItem>Pumps</NavigationMenuItem>
-            <NavigationMenuItem>Token</NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
-      </div>
+      <NavigationMenu>
+        <NavigationMenuList className="flex justify-center items-center space-x-4">
+          <NavigationMenuItem>Trading</NavigationMenuItem>
+          <NavigationMenuItem>Community</NavigationMenuItem>
+          <NavigationMenuItem>Pumps</NavigationMenuItem>
+          <NavigationMenuItem>Token</NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
       <div className="flex justify-center items-center space-x-4">
         <div className="relative">
           <Input placeholder="Search" />
