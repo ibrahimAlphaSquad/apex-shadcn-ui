@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { ScrollArea } from "@radix-ui/react-scroll-area";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
+import { ScrollArea } from "./ui/scroll-area";
 
 function Activity() {
   return (
